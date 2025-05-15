@@ -4,6 +4,7 @@ from datetime import datetime , timedelta
 
 
 st.title("Welcome to Age calculator App ")
+st.markdown("By DeePak ")
 name = st.text_input("Enter Your Name : ")
 dob  = st.date_input("Enter Your D.O.B ", min_value=datetime(1900,1,1).date())
 cod = st.date_input(" Todays Date " )
